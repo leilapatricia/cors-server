@@ -7,13 +7,11 @@ const port = process.env.PORT || 8080;
 
 corsProxy.createServer({
     originWhitelist: [
-      'http://localhost:3000',
-      'http://localhost:5000',
       'http://localhost:19006',
-      'https://listed-e50b8.firebaseapp.com/',
+      'http://listed-e50b8.web.app',
       'https://listed-e50b8.firebaseapp.com',
       'https://listed-e50b8.web.app/',
-      'http://listed-e50b8.web.app',
+      'https://listed-e50b8.firebaseapp.com/',
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
