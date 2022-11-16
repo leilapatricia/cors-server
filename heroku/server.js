@@ -9,7 +9,7 @@ corsProxy.createServer({
     originWhitelist: [
       'http://localhost:3000',
       'http://localhost:5000',
-      'http://localhost:5000',
+      'http://localhost:19006',
       'https://listed-e50b8.firebaseapp.com/',
       'https://listed-e50b8.web.app/',
     ],
