@@ -10,13 +10,10 @@ corsProxy.createServer({
       'http://localhost:3000',
       'http://localhost:5000',
       'http://localhost:19006',
-      'http://listed-e50b8.firebaseapp.com/',
-
-      'https://listed-e50b8.firebaseapp.com/',
-      'https://listed-e50b8.web.app/',
-       'http://listed-e50b8.web.app/',
-      'https://listed-e50b8.web.app/menu/supermarkets/supermarkets-list',
-       'https://listed-e50b8.firebaseapp.com/menu/supermarkets/supermarkets-list'
+      'http://listed-e50b8.firebaseapp.com',
+      'https://listed-e50b8.firebaseapp.com',
+      'https://listed-e50b8.web.app',
+      'http://listed-e50b8.web.app',
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
