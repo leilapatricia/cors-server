@@ -13,7 +13,7 @@ corsProxy.createServer({
       'https://listed-e50b8.web.app/',
       'https://listed-e50b8.firebaseapp.com/',
     ],
-    requireHeader: ['origin', 'x-requested-with'],
+    requireHeader: [],
     removeHeaders: ['cookie', 'cookie2']
 }).listen(port, host, () => {
     console.log('Running CORS Anywhere on ' + host + ':' + port);
