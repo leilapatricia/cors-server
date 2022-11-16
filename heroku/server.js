@@ -13,7 +13,7 @@ corsProxy.createServer({
       'https://listed-e50b8.firebaseapp.com/',
       'https://listed-e50b8.web.app/',
       'https://listed-e50b8.web.app/menu/supermarkets/supermarkets-list',
-       https://listed-e50b8.firebaseapp.com/menu/supermarkets/supermarkets-list
+       'https://listed-e50b8.firebaseapp.com/menu/supermarkets/supermarkets-list'
     ],
     requireHeader: ['origin', 'x-requested-with'],
     removeHeaders: ['cookie', 'cookie2']
